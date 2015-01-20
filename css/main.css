@@ -59,6 +59,12 @@ ul.mama_menu li {
     width: 100%;
     text-align: center;
 }
+.cheesy_author {
+    font-family: Tahoma, tahoma-w01-regular, tahoma-w02-regular, tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    color: #666666;
+}
 
 /* Footer */
 .footer_bar {
@@ -169,7 +175,12 @@ ul.mama_menu li {
 
 
 /* Why CU Page Styles */
-
+.boulder_vid {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
 
 /* Roster Page Styles */
 
