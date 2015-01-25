@@ -101,6 +101,8 @@ ul.mama_menu li {
 .yellow_sliver {
     background-color: rgba(244, 208, 0, 1);
     height: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .body_media {
     width: 100%;
