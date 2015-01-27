@@ -188,7 +188,7 @@ ul.mama_menu li {
 
 
 /* Schedule Page Styles */
-.nav {
+.nav_sched {
     margin-right: auto;
     margin-left: auto;
     width: 75%;
@@ -196,5 +196,16 @@ ul.mama_menu li {
     border-width: 5px; 
     font-size: 30px;
 }
+.nav_sched > li > a:hover{
+    background-color: #F4D000;
+    border-color: #F4D000;
+}
+/* doesn't work! */ 
+.nav_sched > li > a:focus{
+    background-color: #F4D000;
+    border-color: #F4D000;
+}
+
+.nav
 
 /* Calendar Page Styles */
