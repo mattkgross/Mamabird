@@ -188,6 +188,13 @@ ul.mama_menu li {
 
 
 /* Schedule Page Styles */
-
+.nav {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    border-color: #F4D000;
+    border-width: 5px; 
+    font-size: 30px;
+}
 
 /* Calendar Page Styles */
