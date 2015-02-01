@@ -18,6 +18,25 @@
 
     <link href="css/main.css" rel="stylesheet">
 
+
+    <script>
+      // Link color changing 
+      $(document).ready(function(){
+          $('#twitter-pic').mouseenter(function(){
+            $(this).attr("src", "img/twitter-color.png");
+          });
+          $('#twitter-pic').mouseleave(function(){
+            $(this).attr("src", "img/twitter.png");
+          });
+          $('#facebook-pic').mouseenter(function(){ 
+              $(this).attr("src", "img/facebook-color.png");
+          });
+          $('#facebook-pic').mouseleave(function(){   
+              $(this).attr("src", "img/facebook.png");
+          });
+          });
+    </script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -35,7 +54,15 @@
           <h4 class="header_subtitle">University of Colorado Men's Ultimate Team</h4>
         </div>
         <div class="col-lg-offset-9 col-lg-2 header_social">
-          <a href="https://twitter.com/cumamabird" target="_blank"><img src="img/twitter.png"></a>&nbsp;<a href="https://www.facebook.com/pages/University-of-Colorado-Mamabird/361160030582581" target="_blank"><img src="img/facebook.png"></a>
+
+            <a href="https://twitter.com/cumamabird" target="_blank">
+              <img src="img/twitter.png" id="twitter-pic">
+            </a>
+            &nbsp;
+            <a href="https://www.facebook.com/pages/University-of-Colorado-Mamabird/361160030582581" target="_blank">
+              <img src="img/facebook.png" id="facebook-pic">
+            </a>
+
         </div>
       </div>
     </div>
@@ -85,7 +112,7 @@
 
       <div class="about about2 row">
         <div class="col-lg-offset-3 col-lg-3">
-          <img class="huddle" src="img/huddle.jpg">
+          <img class="huddle" src="img/huddle.jpg" style="width:100%">
         </div>
         <div class="col-lg-3">
           <h3>The Life of a Birdie</h3>
