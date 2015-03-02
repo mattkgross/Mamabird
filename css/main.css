@@ -220,4 +220,5 @@ ul.mama_menu li:hover {
 .calender {
        margin-right: auto;
        margin-left: auto;
+       display: block;
 }
