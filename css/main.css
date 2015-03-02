@@ -216,3 +216,8 @@ ul.mama_menu li:hover {
 */
 
 /* Calendar Page Styles */
+
+.calender {
+       margin-right: auto;
+       margin-left: auto;
+}
