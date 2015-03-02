@@ -30,7 +30,14 @@
 }
 ul.mama_menu li {
     font-family: Tahoma, tahoma-w01-regular, tahoma-w02-regular, tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular, sans-serif;
-    font-size: 14px;
+    font-size: px;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+ul.mama_menu li:hover {
+    background: rgba(244, 208, 0, 1);
 }
 .header_bot {
     background-color: rgba(244, 208, 0, 1);
