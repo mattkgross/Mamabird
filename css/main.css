@@ -262,3 +262,11 @@ span.text-content span {
        margin-left: auto;
        display: block;
 }
+
+/* Upstart Text */
+.upstart_text {
+    font-family: Tahoma, tahoma-w01-regular, tahoma-w02-regular, tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 5px;
+}
