@@ -270,3 +270,9 @@ span.text-content span {
     color: #ffffff;
     margin-top: 5px;
 }
+.upstart_img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width:20%;
+}
