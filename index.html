@@ -23,6 +23,14 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- Open in new tab js -->
+    <script>
+      function OpenInNewTab(url) {
+      var win = window.open(url, '_blank');
+      win.focus();
+    }
+    </script>
   </head>
   <body>
     <!-- Header -->
@@ -126,7 +134,7 @@
           <p class="body_big_text">Sponsorship: Upstart Kombucha</p>
           <div class="yellow_sliver"></div>
           <p class = "upstart_text">Colorado Mamabird has partnered with local business, Upstart Kombucha! Stop by their shop in Boulder and mention <q>Mamabird</q> for 10% off! Check them out online at <a href="http://www.drinkupstart.com" target="_blank">www.drinkupstart.com</a>.</p>
-          <a href="http://www.drinkupstart.com" target="_blank"><img class="upstart_img" src="img/upstartLogo2.png"></img></a>
+          <img class="upstart_img" onclick="OpenInNewTab('http://www.drinkupstart.com')" src="img/upstartLogo2.png"></img>
 
         </div>
       </div>     
