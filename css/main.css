@@ -269,6 +269,7 @@ span.text-content span {
     font-size: 15px;
     color: #ffffff;
     margin-top: 5px;
+    text-align: center;
 }
 .upstart_img {
     margin-right: auto;
