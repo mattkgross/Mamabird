@@ -25,6 +25,10 @@
 
     <link href="css/main.css" rel="stylesheet">
     <script>
+      $('#2016').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      })
       $('#2015').click(function (e) {
         e.preventDefault();
         $(this).tab('show');
@@ -85,11 +89,21 @@
       </div>
 
       <ul class="nav nav-tabs nav_sched">
+        <li><a href="#2016" data-toggle="tab" style="color:grey">20156/a></li>
         <li><a href="#2015" data-toggle="tab" style="color:grey">2015</a></li>
         <li><a href="#2014" data-toggle="tab" style="color:grey">2014</a></li>
       </ul>
       <br>
       <div class="tab-content">
+        <div class="tab-pane active" id="2016">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-2">
+              <p class="body_big_text">2016: Time to rip.</p>
+              <ul style="color:#F4D000">
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="tab-pane active" id="2015">
           <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
