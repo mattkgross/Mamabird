@@ -1,5 +1,12 @@
 /* Shared Header, Body, & Footer Styles */
 /* Header */
+#banner {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+}
+
 .header_bg {
     background-color: rgba(244, 208, 0, 1);
 }
@@ -45,7 +52,11 @@ ul.mama_menu li:hover {
 }
 
 /* Body */
+body {
+    background-color: #000000;
+}
 .main_content {
+    margin-top: 229px;
     background-color: black;
     color: gray;
     padding-top: 40px;
@@ -81,6 +92,9 @@ ul.mama_menu li:hover {
     color: #585757;
     padding-top: 12px;
     padding-bottom: 1px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Home Page Styles */
